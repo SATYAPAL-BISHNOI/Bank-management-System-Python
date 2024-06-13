@@ -3,7 +3,7 @@
 # 
  
 
-# from security import password
+from security import password
 # import security
 import os
 class BankAccount:
@@ -78,7 +78,7 @@ class BankAccount:
 
 def main():
 
-    # secured = password()
+    secured = password()
 
 
 
@@ -194,10 +194,10 @@ def main():
 
         elif choice == '7':
             passw = (input("Enter ADMIN Password : "))
-            # if passw == secured.password:
-            #     Bank.all_accounts()
-            # else:
-            #     print("Invalid password")
+            if passw == secured.password:
+                Bank.all_accounts()
+            else:
+                print("Invalid password")
             # 
                 
         elif choice == '8':

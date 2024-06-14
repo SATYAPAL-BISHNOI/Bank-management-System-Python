@@ -4,7 +4,8 @@
  
 
 from security import password
-# import security
+# import security file to password class
+# 
 import os
 class BankAccount:
     def __init__(self):
@@ -215,5 +216,12 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
+# this is my 2nd python project
+
+
 
 
